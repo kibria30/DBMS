@@ -102,7 +102,7 @@ INSERT into depositor VALUES ('Lindsay','A-222');
 INSERT into depositor VALUES ('Majeris','A-333');
 INSERT into depositor VALUES ('Smith', 'A-444');
 INSERT into depositor VALUES ('Kibria', 'A-130');
-INSERT into depositor VALUES ('Kibria', 'A-230')
+INSERT into depositor VALUES ('Kibria', 'A-230');
 
 
 CREATE TABLE borrower(
