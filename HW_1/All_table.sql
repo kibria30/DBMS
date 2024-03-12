@@ -1,3 +1,10 @@
+drop table borrower;
+drop table depositor;
+drop table loan;
+drop table account;
+drop table customer;
+drop table branch;
+
 CREATE TABLE branch(
     branch_name VARCHAR(15),
     branch_city VARCHAR(15), 
@@ -36,6 +43,7 @@ INSERT into customer VALUES ('Green', 'Walnut', 'Stamford');
 INSERT into customer VALUES ('Jackson', 'University', 'Salt Lake');
 INSERT into customer VALUES ('Majeris', 'First', 'Rye');
 INSERT into customer VALUES ('McBride', 'Safety', 'Rye');
+INSERT into customer VALUES('Kibria', 'Shahidullah hall', 'Dhaka');
 
 
 CREATE TABLE account(
@@ -54,6 +62,8 @@ INSERT into account VALUES ('A-222', 'Redwood', 700);
 INSERT into account VALUES ('A-217', 'Brighton', 750);
 INSERT into account VALUES ('A-333', 'Central', 850);
 INSERT into account VALUES ('A-444', 'North Town', 625);
+INSERT into account VALUES ('A-130', 'Downtown', 600);
+INSERT into account VALUES ('A-230', 'Brighton', 700);
 
 
 CREATE TABLE loan(
@@ -91,6 +101,8 @@ INSERT into depositor VALUES ('Jones', 'A-217');
 INSERT into depositor VALUES ('Lindsay','A-222');
 INSERT into depositor VALUES ('Majeris','A-333');
 INSERT into depositor VALUES ('Smith', 'A-444');
+INSERT into depositor VALUES ('Kibria', 'A-130');
+INSERT into depositor VALUES ('Kibria', 'A-230')
 
 
 CREATE TABLE borrower(
