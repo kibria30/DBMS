@@ -43,7 +43,7 @@ INSERT into customer VALUES ('Green', 'Walnut', 'Stamford');
 INSERT into customer VALUES ('Jackson', 'University', 'Salt Lake');
 INSERT into customer VALUES ('Majeris', 'First', 'Rye');
 INSERT into customer VALUES ('McBride', 'Safety', 'Rye');
-INSERT into customer VALUES('Kibria', 'Shahidullah hall', 'Dhaka');
+INSERT into customer VALUES('Kibria', 'University', 'Dhaka');
 
 
 CREATE TABLE account(
